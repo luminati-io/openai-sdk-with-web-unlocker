@@ -91,7 +91,7 @@ Open the project directory in your preferred Python IDE. [Visual Studio Code wit
 
 Within the `openai-sdk-agent` directory, create a new Python file named `agent.py`. Your directory structure should now appear as follows:
 
-![The file structure of the AI agent project](https://media.brightdata.com/2025/04/The-file-structure-of-the-AI-agent-project.png)
+![The file structure of the AI agent project](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/The-file-structure-of-the-AI-agent-project.png)
 
 Currently, `scraper.py` is an empty Python script, but it will soon contain the desired AI agent logic.
 
@@ -146,7 +146,7 @@ if __name__ == "__main__":
 
 Create a `.env` file in your project directory:
 
-![Adding a .env file to your project](https://media.brightdata.com/2025/04/Adding-a-.env-file-to-your-project.png)
+![Adding a .env file to your project](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/Adding-a-.env-file-to-your-project.png)
 
 This file will store your environment variables, such as API keys and secret tokens. To load the environment variables from the `.env` file, use `load_dotenv()` from the `dotenv` package:
 
@@ -188,15 +188,15 @@ Next, consult [Bright Data's official Web Unlocker documentation](https://docs.b
 
 In your Bright Data "User Dashboard" page, select the "Get proxy products" option:
 
-![Clicking the "Get proxy products" option](https://media.brightdata.com/2025/04/Clicking-the-Get-proxy-products-option.png)
+![Clicking the "Get proxy products" option](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/Clicking-the-Get-proxy-products-option.png)
 
 In the products table, find the row labeled "unblocker" and click on it:
 
-![Clicking the "unblocker" row](https://media.brightdata.com/2025/04/Clicking-the-unblocker-row.png)
+![Clicking the "unblocker" row](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/Clicking-the-unblocker-row.png)
 
 On the "unlocker" page, copy your API token using the clipboard icon:
 
-![Copying the API token](https://media.brightdata.com/2025/04/Copying-the-API-token.png)
+![Copying the API token](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/Copying-the-API-token.png)
 
 Also, verify that the toggle in the top-right corner is switched to "On," indicating that the Web Unlocker product is active.
 
@@ -537,15 +537,15 @@ python agent.py
 
 Let's say you want to summarize the content from [Bright Data's AI services hub](https://brightdata.com/ai). Simply enter a request like this:
 
-![The input to get a summary of Bright Data's AI services](https://media.brightdata.com/2025/04/The-input-to-get-a-summary-of-Bright-Datas-AI-services.png)
+![The input to get a summary of Bright Data's AI services](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/The-input-to-get-a-summary-of-Bright-Datas-AI-services.png)
 
 Here's the JSON-formatted result you'll receive:
 
-![The summary returned by your AI agent](https://media.brightdata.com/2025/04/The-summary-returned-by-your-AI-agent.png)
+![The summary returned by your AI agent](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/The-summary-returned-by-your-AI-agent.png)
 
 Now, imagine you want to extract product data from an Amazon product page, such as the [PS5 listing](https://www.amazon.com/PlayStation%C2%AE5-console-slim-PlayStation-5/dp/B0CL61F39H/):
 
-![The Amazon PS5 page](https://media.brightdata.com/2025/04/The-Amazon-PS5-page.png)
+![The Amazon PS5 page](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/The-Amazon-PS5-page.png)
 
 Typically, [Amazon's CAPTCHA and anti-bot systems](https://brightdata.com/blog/web-data/bypass-amazon-captcha) would block your request. With the Web Unlocker API, your AI agent can access and analyze the page without being blocked:
 
@@ -565,7 +565,7 @@ The output will be:
 
 Finally, suppose you want to get structured news information from [a Yahoo News article](https://www.yahoo.com/news/pope-francis-dies-88-080859417.html):
 
-![The target Yahoo News article](https://media.brightdata.com/2025/04/The-target-Yahoo-News-article.png)
+![The target Yahoo News article](https://github.com/luminati-io/openai-sdk-with-web-unlocker/blob/main/images/The-target-Yahoo-News-article.png)
 
 Accomplish this with the following input:
 
